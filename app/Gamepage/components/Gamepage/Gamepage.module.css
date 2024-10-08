@@ -1,0 +1,42 @@
+.GamePageContainer {
+    width: 1280px;
+    padding: 64px 80px 144px 80px;
+    margin: 64px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    background-color: white;
+}
+.scoreContainer {
+    width: 1280px;
+    height: 151px;
+    display: flex;
+    align-items: center;
+    gap: 593px;
+}
+.scoreContent {
+    width: 135px;
+    height: 151px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+.scoreContent h1 {
+    margin: 0;
+    color: #000;
+    font-family: Poppins;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.scoreContent p {
+    margin: 0;
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
